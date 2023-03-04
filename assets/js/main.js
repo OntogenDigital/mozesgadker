@@ -233,8 +233,7 @@
     })
   });
 
-})()
-
+})
 
 // popup
 
@@ -245,7 +244,7 @@ $(document).ready(function(){
   function showWindow(){
     $('#main').show();
     // stop scroll
-    $('html body').css('overflow','hidden');
+    // $('html body').css('overflow','hidden');
     // auto hide fter 5s
     stopAutohide = setTimeout(hideWindow,5000);
 
@@ -276,3 +275,4 @@ $(document).ready(function(){
 
 
 })
+
